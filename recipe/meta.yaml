@@ -30,7 +30,7 @@ requirements:
     - posix  # [win]
     - {{ compiler('c') }}        # [unix]
     - {{ compiler('m2w64_c') }}  # [win]
-    - make
+    - make  # [unix]
   host:
     - xorg-util-macros
 
